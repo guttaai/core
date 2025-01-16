@@ -1,0 +1,33 @@
+{
+  "name": "@guttaai/core",
+  "version": "0.0.1",
+  "description": "Gutta AI core package for automating project workflows",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guttaai/core.git"
+  },
+  "keywords": [
+    "ai",
+    "ai agent",
+    "ai orchestration",
+    "project automation",
+    "workflow"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guttaai/core/issues"
+  },
+  "homepage": "https://github.com/guttaai/core#readme",
+  "dependencies": {
+    "eventemitter3": "^5.0.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.13"
+  }
+}
