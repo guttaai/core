@@ -1,9 +1,6 @@
-import { BaseOperator } from './BaseOperator';
-// import { BaseOperator } from '@guttaai/core';
-
 import WebSocket from 'ws';
+import { BaseOperator } from './BaseOperator';
 import { ConnectionStatus } from '../types/events';
-// import { ConnectionStatus } from '@guttaai/core';
 
 export abstract class WebSocketOperator extends BaseOperator
 {
