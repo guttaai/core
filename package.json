@@ -3,6 +3,15 @@
   "version": "0.0.1",
   "description": "Gutta AI core package for automating project workflows",
   "main": "index.ts",
+  "types": "index.ts",
+  "files": [
+    "*.ts",
+    "operators",
+    "algorithms",
+    "agents",
+    "types",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
